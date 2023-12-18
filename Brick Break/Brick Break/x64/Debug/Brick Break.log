@@ -1,2 +1,26 @@
 ﻿  main.c
-  Brick Break.vcxproj -> C:\Users\e.valette\Desktop\Dossier\Projet_CSFML\Dev-C\Brick Break\x64\Debug\Brick Break.exe
+C:\Users\e.valette\Documents\Git\Minijeuen2jours\Brick Break\Brick Break\tools.c(11,5): warning C4013: 'srand' non défini(e) ; extern retournant int pris par défaut
+  (compiler le fichier source 'main.c')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(350,23): error C2371: 'srand' : redéfinition ; types de base différents
+  (compiler le fichier source 'main.c')
+  
+  tools.c
+C:\Users\e.valette\Documents\Git\Minijeuen2jours\Brick Break\Brick Break\tools.c(11,5): warning C4013: 'srand' non défini(e) ; extern retournant int pris par défaut
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(350,23): error C2371: 'srand' : redéfinition ; types de base différents
+  (compiler le fichier source 'tools.c')
+  
+C:\Users\e.valette\Documents\Git\Minijeuen2jours\Brick Break\Brick Break\tools.c(8,6): error C2084: la fonction 'void initTools()' a déjà un corps
+  C:\Users\e.valette\Documents\Git\Minijeuen2jours\Brick Break\Brick Break\tools.c(8,6):
+  voir la définition précédente de 'initTools'
+  
+C:\Users\e.valette\Documents\Git\Minijeuen2jours\Brick Break\Brick Break\tools.c(11,11): warning C4244: 'fonction' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\e.valette\Documents\Git\Minijeuen2jours\Brick Break\Brick Break\tools.c(15,7): error C2084: la fonction 'float getDeltaTime()' a déjà un corps
+  C:\Users\e.valette\Documents\Git\Minijeuen2jours\Brick Break\Brick Break\tools.c(15,7):
+  voir la définition précédente de 'getDeltaTime'
+  
+C:\Users\e.valette\Documents\Git\Minijeuen2jours\Brick Break\Brick Break\tools.c(23,6): error C2084: la fonction 'void restartClock()' a déjà un corps
+  C:\Users\e.valette\Documents\Git\Minijeuen2jours\Brick Break\Brick Break\tools.c(23,6):
+  voir la définition précédente de 'restartClock'
+  
+  Génération de code en cours...
