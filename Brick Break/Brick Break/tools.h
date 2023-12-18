@@ -5,6 +5,6 @@
 #include <time.h>
 #include "SFML/Graphics.h"
 
-void initTools();
-float getDeltaTime();
-void restartClock();
+//void initTools();
+//float getDeltaTime();
+//void restartClock();
